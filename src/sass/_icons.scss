@@ -1,0 +1,15 @@
+.icon {
+    width: 48px;
+    height: 48px;
+    display: block;
+}
+
+@mixin icon($icon_name) {
+    .icon-#{$icon_name} {
+        background-image: url('../assets/icons/#{$icon_name}.svg');
+        background-repeat: no-repeat;
+    }
+}
+
+@include icon('doctor');
+@include icon('respirator');

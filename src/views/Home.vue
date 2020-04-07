@@ -1,9 +1,32 @@
 <template>
   <div class="py-3 container">
-    <div class="logo"></div>
-    <div class="px-3">
-      <b-button block  class="btn-orange" target="_blank" href="https://coronavirus.ceara.gov.br/profissional/">Visite o site do Profissional de Saúde</b-button>
-      <b-button block class="btn-orange" target="_blank" href="https://gestao-ventiladores.dev.org.br/">Visite o nosso Sistema Central de Ventiladores</b-button>
+    <div class="row ">
+      <div class="col-12 d-flex justify-content-center mb-3">
+        <a target="_blank" href="https://coronavirus.ceara.gov.br/profissional/" rel="noopener noreferrer">
+          <b-card
+            style="max-width: 20rem;"
+            class="mb-2 text-center line-orange"
+            >
+            <div class="card-icon mx-auto">
+              <span class="icon icon-doctor mx-auto"></span>
+            </div>
+            <p class="my-3">Visite o site do Profissional de Saúde</p>
+          </b-card>
+        </a>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <a target="_blank" href="https://coronavirus.ceara.gov.br/profissional/" rel="noopener noreferrer">
+          <b-card
+            style="max-width: 20rem;"
+            class="mb-2 text-center line-orange d-flex justify-content-center"
+          >
+            <div class="card-icon mx-auto">
+              <span class="icon icon-respirator mx-auto"></span>
+            </div>
+            <p class="my-3">Visite o nosso Sistema Central de Ventiladores</p>
+          </b-card>
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -16,15 +39,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .btn-orange {
-    background-color: #fc6836;
-    color: white;
-
-    &:hover {
-      background-color: #ce542c;
-    }
-    &:focus {
-      background-color: #ce542c;
-    }
+  .line-orange {
+    border-top: 3px solid #f36821;
+  }
+  .card-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    align-self: center;
+  }
+  a {
+    color: black;
   }
 </style>
