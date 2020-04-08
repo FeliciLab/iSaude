@@ -4,6 +4,5 @@
   "start_url": "./index.html",
   "display": "fullscreen",
   "background_color": "#00853b",
-  "theme_color": "#00853b",
-  "scope": "/covid-19-mobile/index.html"
+  "theme_color": "#00853b"
 }
