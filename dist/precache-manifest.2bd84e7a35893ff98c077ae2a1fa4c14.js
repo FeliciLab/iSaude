@@ -4,11 +4,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/.well-known/assetlinks.json"
   },
   {
-    "revision": "dfc2923abaa72bd7a887",
+    "revision": "2843e8aff2e560ae146b",
     "url": "/css/app.e98c52f6.css"
   },
   {
-    "revision": "cc64c0bed1daff0e36c199aba065b98a",
+    "revision": "dd3a7df897c868d50b53e6007b727f62",
     "url": "/firebase-messaging-sw.js"
   },
   {
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/respirator.8e737840.svg"
   },
   {
-    "revision": "f90cc0bb9c339eecc6fbd2ddee89c766",
+    "revision": "82c63dd0fdd1e269fb9129e0521405dc",
     "url": "/index.html"
   },
   {
-    "revision": "dfc2923abaa72bd7a887",
-    "url": "/js/app.477c360d.js"
+    "revision": "2843e8aff2e560ae146b",
+    "url": "/js/app.c9fec244.js"
   },
   {
     "revision": "7fbc67a8a3ca1803ea4f",
