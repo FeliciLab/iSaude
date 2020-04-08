@@ -9,7 +9,7 @@ module.exports = {
     }
   },
   pwa: {
-    name: 'Covid-19 Mobile',
+    name: 'Covid-19 Ceará',
     themeColor: '#00853b',
     msTileColor: '#00853b',
     appleMobileWebAppCapable: 'yes',
@@ -21,7 +21,7 @@ module.exports = {
     workboxPluginMode: 'InjectManifest',
     workboxOptions: {
       // swSrc is required in InjectManifest mode.
-      swSrc: 'src/registerServiceWorker.js'
+      // swSrc: 'src/registerServiceWorker.js'
       // ...other Workbox options...
     }
   }

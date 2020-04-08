@@ -1,4 +1,4 @@
-# covid-19-app
+# covid-19-ceara
 
 # Atenção !!
 ### Somente alterar o nome do Projeto junto com um novo Build. Ambientes poderão ser prejudicados
