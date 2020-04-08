@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.covid_19_mobile.twa",
+    "sha256_cert_fingerprints": [
+      "FA:7E:B0:2E:7A:EC:3A:32:C1:21:8E:98:4F:98:B6:54:4A:6E:CD:82:29:CD:29:48:12:EE:D7:F8:E5:02:9A:F0"
+    ]
+  }
+}]
