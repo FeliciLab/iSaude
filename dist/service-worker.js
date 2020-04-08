@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.d820c4ec71fa40e633ab84f9717dd53d.js"
+  "/precache-manifest.140b5b3de6d19e3da3064d641d06ef09.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "covid-19-ceara"});

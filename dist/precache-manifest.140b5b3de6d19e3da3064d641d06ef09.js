@@ -1,5 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "4bdcd8f78d51794d2c8f74c6e69f9097",
+    "url": "/.well-known/assetlinks.json"
+  },
+  {
     "revision": "a8e83675a7c343987e1d",
     "url": "/css/app.e98c52f6.css"
   },
