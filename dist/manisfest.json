@@ -1,8 +1,9 @@
 {
-    "name": "covid-19-mobile",
-    "short_name": "covid-19-mobile",
-    "start_url": "./index.html",
-    "display": "standalone",
-    "background_color": "#00853b",
-    "theme_color": "#00853b"
-  }
+  "name": "covid-19-mobile",
+  "short_name": "covid-19-mobile",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "background_color": "#00853b",
+  "theme_color": "#00853b",
+  "scope": "/covid-19-mobile/index.html"
+}
