@@ -15,7 +15,7 @@ module.exports = {
     appleMobileWebAppCapable: 'yes',
     appleMobileWebAppStatusBarStyle: 'black',
     manifestOptions: {
-      display: 'standalone'
+      display: 'fullscreen'
     },
     // configure the workbox plugin
     workboxPluginMode: 'InjectManifest',
