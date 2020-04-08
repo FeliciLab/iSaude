@@ -15,7 +15,7 @@
         </a>
       </div>
       <div class="col-12 d-flex justify-content-center">
-        <a target="_blank" href="https://coronavirus.ceara.gov.br/profissional/" rel="noopener noreferrer">
+        <a target="_blank" href="https://gestao-ventiladores.dev.org.br/" rel="noopener noreferrer">
           <b-card
             style="max-width: 20rem;"
             class="mb-2 text-center line-orange d-flex justify-content-center"
