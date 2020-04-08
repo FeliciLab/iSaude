@@ -5,10 +5,9 @@ import router from './router'
 import store from './store'
 import './sass/main.scss'
 import './plugins/vue-bootstrap'
-import { initFirebase, requestPushPermission } from './push-notification'
+import { initFirebase } from './push-notification'
 Vue.config.productionTip = false
 initFirebase()
-requestPushPermission()
 new Vue({
   router,
   store,
