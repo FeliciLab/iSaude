@@ -1,0 +1,8 @@
+{
+  "appId": "com.isaude.app",
+  "appName": "i-saude",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "dist",
+  "cordova": {}
+}

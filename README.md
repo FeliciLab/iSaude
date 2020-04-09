@@ -25,3 +25,9 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Buildar o Projeto para Android e IOS:
+```
+npx cap add android && npx cap add ios
+```

@@ -1,6 +1,13 @@
 .DS_Store
 node_modules
 
+# Dist folder
+dist
+
+# ios and Android builder
+ios
+android
+
 # local env files
 .env.local
 .env.*.local
@@ -18,3 +25,6 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+
+
