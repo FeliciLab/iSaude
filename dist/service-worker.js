@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.ccde9b95f0babba17d337354fe654e46.js"
+  "/precache-manifest.2fff194b243d8a32fcf73f4c764f9c57.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "i-saude"});

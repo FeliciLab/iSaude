@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable type="dark" class="bg-header">
     <div class="w-100 d-flex justify-content-center">
-       <img :src="require('../assets/esp_branca.png')" style="max-width:150px;" alt="Kitten">
+       <img :src="require('../assets/esp_branca.png')" style="max-width:150px; max-height:48px" alt="Kitten">
     </div>
 
     <!-- <b-navbar-toggle target="navbar-toggle-collapse">
