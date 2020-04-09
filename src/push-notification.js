@@ -12,6 +12,12 @@ const initFirebase = () => {
   })
 }
 
+navigator.serviceWorker
+  .register('/service-worker.js')
+  .then((registration) => {
+    firebase.messaging().useServiceWorker(registration)
+  })
+
 const requestPushPermission = async () => {
   try {
     const messaging = firebase.messaging()

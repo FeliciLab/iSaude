@@ -9,20 +9,18 @@ module.exports = {
     }
   },
   pwa: {
-    name: 'Covid-19 Ceará',
+    name: 'iSaúde',
     themeColor: '#00853b',
     msTileColor: '#00853b',
+    background_color: '#FFFFFF',
     appleMobileWebAppCapable: 'yes',
+    orientation: 'portrait',
+    start_url: '/',
     appleMobileWebAppStatusBarStyle: 'black',
     manifestOptions: {
       display: 'fullscreen'
     },
     // configure the workbox plugin
-    workboxPluginMode: 'InjectManifest',
-    workboxOptions: {
-      // swSrc is required in InjectManifest mode.
-      swSrc: 'src/registerServiceWorker.js'
-      // ...other Workbox options...
-    }
+    workboxPluginMode: 'InjectManifest'
   }
 }
