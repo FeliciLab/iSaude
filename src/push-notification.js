@@ -1,4 +1,6 @@
 import firebase from 'firebase'
+import { Plugins } from '@capacitor/core'
+
 const initFirebase = () => {
   firebase.initializeApp({
     apiKey: 'AIzaSyDcZZrVte2c4zd0jTpnPrhZOIw4KFDkN8A',
@@ -19,15 +21,34 @@ navigator.serviceWorker
   })
 
 const requestPushPermission = async () => {
-  try {
-    const messaging = firebase.messaging()
-    await messaging.requestPermission()
-    const token = await messaging.getToken()
-    console.log('token do usuário:', token)
-    return token
-  } catch (error) {
-    console.error(error)
-  }
+  const { PushNotification } = Plugins
+  PushNotification.requestPermission().then(result => {
+    if (result.granted) {
+      PushNotification.register()
+    } else {
+      console.log('error')
+    }
+  })
+
+  PushNotification.addListener('registration', token => {
+    alert('Push registration success, token: ' + token.value)
+    console.log('Push registration success, token: ' + token.value)
+  })
+
+  PushNotification.addListener('registrationError', error => {
+    alert('Error on registration: ' + JSON.stringify(error))
+    console.log('Error on registration: ' + JSON.stringify(error))
+  })
+
+  PushNotification.addListener('pushNotificationReceived', notification => {
+    alert('Push received: ' + JSON.stringify(notification))
+    console.log('Error on registration: ' + JSON.stringify(notification))
+  })
+
+  PushNotification.addListener('pushNotificationActionPerformed', notification => {
+    alert('Push action performed: ' + JSON.stringify(notification))
+    console.log('Error on registration: ' + JSON.stringify(notification))
+  })
 }
 
 export {
