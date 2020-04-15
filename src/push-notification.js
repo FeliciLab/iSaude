@@ -1,5 +1,6 @@
 import firebase from 'firebase'
-const initFirebase = () => {
+
+export const initFirebase = () => {
   firebase.initializeApp({
     apiKey: 'AIzaSyDcZZrVte2c4zd0jTpnPrhZOIw4KFDkN8A',
     authDomain: 'covid-19-ceara-7f898.firebaseapp.com',
@@ -18,19 +19,3 @@ navigator.serviceWorker
     firebase.messaging().useServiceWorker(registration)
   })
 
-const requestPushPermission = async () => {
-  try {
-    const messaging = firebase.messaging()
-    await messaging.requestPermission()
-    const token = await messaging.getToken()
-    console.log('token do usuário:', token)
-    return token
-  } catch (error) {
-    console.error(error)
-  }
-}
-
-export {
-  initFirebase,
-  requestPushPermission
-}
