@@ -1,6 +1,6 @@
 {
-  "appId": "com.esp.isaude",
-  "appName": "i-saude",
+  "appId": "com.esp.isus",
+  "appName": "i-sus",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
   "webDir": "dist",

@@ -26,5 +26,7 @@ yarn-error.log*
 *.sln
 *.sw?
 
+#Exclude google-services.json
+google-services.json
 
 
