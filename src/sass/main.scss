@@ -7,3 +7,10 @@ body {
     font-family: 'OpenSans-Regular' ;
     font-weight: normal;
 }
+
+@supports(padding: unquote('max(0px)')) {
+    .content {
+        padding-left: unquote('max(12px, env(safe-area-inset-left))');
+        padding-right: unquote('max(12px, env(safe-area-inset-right))');
+    }
+}
