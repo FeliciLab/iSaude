@@ -11,8 +11,27 @@ export default {
   components: {
     Header
   },
-  mounted () {
-    // requestPushPermission()
+  async mounted () {
+    const { PushNotifications, Device } = Plugins
+    const info = await Device.getInfo()
+    if (info.platform !== 'web') {
+      PushNotifications.register()
+      PushNotifications.addListener('registration', token => {
+        console.log('Push registration success, token: ' + token.value)
+      })
+
+      PushNotifications.addListener('registrationError', error => {
+        console.log('Error on registration: ' + JSON.stringify(error))
+      })
+
+      PushNotifications.addListener('pushNotificationReceived', notification => {
+        console.log('Error on registration: ' + JSON.stringify(notification))
+      })
+
+      PushNotifications.addListener('pushNotificationActionPerformed', notification => {
+        console.log('Error on registration: ' + JSON.stringify(notification))
+      })
+    }
   }
 }
 </script>
