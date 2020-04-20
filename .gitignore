@@ -29,4 +29,6 @@ yarn-error.log*
 #Exclude google-services.json
 google-services.json
 
+#Keystore
+android-keystore.jks
 

@@ -1,6 +1,6 @@
 {
   "appId": "com.esp.isus",
-  "appName": "i-sus",
+  "appName": "iSUS",
   "bundledWebRuntime": false,
   "npmClient": "yarn",
   "webDir": "dist",
