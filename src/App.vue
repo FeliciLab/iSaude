@@ -6,7 +6,7 @@
 </template>
 <script>
 import Header from './components/Header'
-import { Plugins } from '@capacitor/core'
+// import { requestPushPermission } from './push-notification'
 export default {
   components: {
     Header

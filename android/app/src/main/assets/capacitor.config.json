@@ -4,5 +4,10 @@
   "bundledWebRuntime": false,
   "npmClient": "yarn",
   "webDir": "dist",
-  "cordova": {}
+  "cordova": {},
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
 }
