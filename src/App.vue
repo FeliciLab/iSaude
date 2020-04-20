@@ -1,19 +1,25 @@
 <template>
   <div class="content">
-    <Header/>
+    <Header :platform="platform"/>
     <router-view/>
   </div>
 </template>
 <script>
 import Header from './components/Header'
-// import { requestPushPermission } from './push-notification'
+import { Plugins } from '@capacitor/core'
 export default {
   components: {
     Header
   },
+  data () {
+    return {
+      platform: ''
+    }
+  },
   async mounted () {
     const { PushNotifications, Device } = Plugins
     const info = await Device.getInfo()
+    this.platform = info.platform
     if (info.platform !== 'web') {
       PushNotifications.register()
       PushNotifications.addListener('registration', token => {
