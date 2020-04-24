@@ -1,6 +1,14 @@
 <template>
   <div class="py-3 container">
-    <div class="row ">
+    <div class="row">
+      <!-- <div class="col-12 d-flex justify-content-center">
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          Detectamos que o aceite das notificações foi bloqueado. Por favor,<button type="button" class="btn btn-link" :click="dispatchPermissionPush()">Ative as notificações</button>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div> -->
       <div class="col-12 d-flex justify-content-center mb-3">
         <a target="_blank" href="https://coronavirus.ceara.gov.br/profissional/" rel="noopener noreferrer">
           <b-card
@@ -18,8 +26,7 @@
         <a target="_blank" href="https://gestao-ventiladores.dev.org.br/" rel="noopener noreferrer">
           <b-card
             style="max-width: 20rem;"
-            class="mb-2 text-center line-orange d-flex justify-content-center"
-          >
+            class="mb-2 text-center line-orange d-flex justify-content-center">
             <div class="card-icon mx-auto">
               <span class="icon icon-respirator mx-auto"></span>
             </div>
@@ -32,9 +39,14 @@
 </template>
 
 <script>
-
+// import {requestPushPermission} from '../push-notification'
 export default {
   name: 'Home'
+  // methods: {
+  //   dispatchPermissionPush () {
+  //     requestPushPermission()
+  //   }
+  // }
 }
 </script>
 

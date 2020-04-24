@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">i-sus</string>
+    <string name="title_activity_main">i-sus</string>
+    <string name="package_name">com.esp.isus</string>
+    <string name="custom_url_scheme">com.esp.isus</string>
+</resources>

@@ -1,6 +1,6 @@
 {
-  "name": "covid-19-ceara",
-  "version": "0.1.0",
+  "name": "i-saude",
+  "version": "1.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,6 +8,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@capacitor/android": "^2.0.0",
+    "@capacitor/cli": "^2.0.0",
+    "@capacitor/core": "^2.0.0",
+    "@capacitor/ios": "^2.0.0",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.10.1",
     "core-js": "^3.6.4",
@@ -35,6 +39,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
     "gh-pages": "^2.2.0",
+    "pwa-asset-generator": "^2.3.0",
     "vue-template-compiler": "^2.6.11"
   }
 }
