@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # iSaúde - O Super App da Saúde Pública
-=======
-# iSUS
->>>>>>> 1.1.1
 
 O iSaúde é um aplicativo de conexão e relacionamento entre a Escola de Saúde Pública do Ceará Paulo Marcelo Martins Rodrigues (ESP/CE) e os usuários, trabalhadores e gestores do Sistema Único de Saúde e sistemas suplementares. É uma das soluções produzidas pelo Núcleo de Inovação Tecnológica da ESP/CE como parte da Força Tarefa Digital de Combate ao Coronavírus.
 
