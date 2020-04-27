@@ -35,3 +35,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
 npx cap add android && npx cap add ios
 ```
+---
+# Atenção: Equipes de Design
+### Design de Interfaces:
+Para consultar o projeto da interface, acessar: https://www.figma.com/file/FLKurtBDSBYAiYcS5xAPYC/mockup?node-id=0%3A1
+
